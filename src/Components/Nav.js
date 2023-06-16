@@ -1,12 +1,13 @@
 import './Nav.css';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
     return(
         <div className="navbar dis_flex">
-            <a href="#">Home</a>
-            <a href="#">Products</a>
-            <a href="#">Users</a>
-            <a href="#">Contact</a>
+            <Link to="/">Home</Link>
+            <Link to="/product">Products</Link>
+            <Link to="/user">Users</Link>
+            <Link to="/contact">Contact</Link>
             
         </div>
     );
