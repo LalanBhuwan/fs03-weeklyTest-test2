@@ -1,0 +1,19 @@
+
+.dis_flex{
+    display:flex;
+
+}
+.navbar{
+    background-color: black;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 4rem;
+    align-items: center;
+   
+}
+.navbar > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 3rem;
+}
